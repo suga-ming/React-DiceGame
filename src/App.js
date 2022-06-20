@@ -27,12 +27,12 @@ function App() {
   return (
     <div>
       <div>
-        <Button onClick={handleRollClick}>던지기</Button>
-        <Button onClick={handleClearClick}>처음부터</Button>
+        <Button color="blue" onClick={handleRollClick}>던지기</Button>
+        <Button color="red" onClick={handleClearClick}>처음부터</Button>
       </div>
       <div>
-        <Board name="나" color="blue" num={num} sum={sum} gameHistory={gameHistory} />
-        <Board name="상대" color="red" num={otherNum} sum={otherSum} gameHistory={otherGameHistory} />
+        <Board name="나" color="blue"  gameHistory={myHistory} />
+        <Board name="상대" color="red"  gameHistory={otherHistory} />
       </div>
     </div>
   );
