@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='App-logo'>
+      <div className='App logo'>
         <div className='logo-img'><img src={logo} alt='logo' width='90px' height='55px'></img></div>
         <div className='App-title'>주사위 게임</div>
       </div>
